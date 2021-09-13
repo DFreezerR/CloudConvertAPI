@@ -1,0 +1,8 @@
+﻿bin/Debug/
+bin/Release/
+obj/Debug/
+obj/Release/
+*.user
+*.snk
+.git/
+.idea/
