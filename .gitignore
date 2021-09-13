@@ -6,3 +6,4 @@ obj/Release/
 *.snk
 .git/
 .idea/
+/ConvertAPI/bin/Release/net5.0-windows/win-x64/
