@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "ConvertAPI/1.0.0": {
         "dependencies": {
-          "CloudConvert.API": "1.0.2"
+          "CloudConvert.API": "1.0.2",
+          "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
           "ConvertAPI.dll": {}

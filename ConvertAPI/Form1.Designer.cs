@@ -120,12 +120,10 @@
             // 
             // cmbFrom
             // 
-            this.cmbFrom.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cmbFrom.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cmbFrom.Enabled = false;
             this.cmbFrom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmbFrom.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.cmbFrom.FormattingEnabled = true;
-            this.cmbFrom.Items.AddRange(new object[] {"mp4"});
             this.cmbFrom.Location = new System.Drawing.Point(6, 39);
             this.cmbFrom.Name = "cmbFrom";
             this.cmbFrom.Size = new System.Drawing.Size(117, 21);
@@ -139,7 +137,6 @@
             this.cmbTo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.cmbTo.FormattingEnabled = true;
             this.cmbTo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.cmbTo.Items.AddRange(new object[] {"aac", "aiff", "flac", "m4a", "mp3", "wav", "wma", "gif", "avi", "flv", "mkv", "mov", "mp4", "webm", "wmv"});
             this.cmbTo.Location = new System.Drawing.Point(6, 85);
             this.cmbTo.Name = "cmbTo";
             this.cmbTo.Size = new System.Drawing.Size(117, 21);

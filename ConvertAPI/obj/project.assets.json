@@ -2918,7 +2918,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "CloudConvert.API >= 1.0.2"
+      "CloudConvert.API >= 1.0.2",
+      "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {
@@ -2971,6 +2972,10 @@
           "CloudConvert.API": {
             "target": "Package",
             "version": "[1.0.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
           }
         },
         "imports": [
