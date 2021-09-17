@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q1oqbfGqXZYm15Y36B0ypsuRtnOjYLu/JXdQzHT/qtqpDzaMjHc3G9glMp6pfBKUnuShUS+/aKAx+suXjp3Gjg==",
+  "dgSpecHash": "+i7sbPzmctCqxRe/cODAaTlJMA2JQxx9m99wxlomtp4bR4ItLIsNiXFhSbVCg2bhwTsfgL+0o9nRhTPtTVKABg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\HappyMan\\RiderProjects\\ConvertAPI\\ConvertAPI\\ConvertAPI.csproj",
+  "projectFilePath": "C:\\Users\\HappyMan\\RiderProjects\\ConvertAPI\\ConvertAPI\\CloudConvertApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HappyMan\\.nuget\\packages\\cloudconvert.api\\1.0.2\\cloudconvert.api.1.0.2.nupkg.sha512",
     "C:\\Users\\HappyMan\\.nuget\\packages\\jetbrains.annotations\\2021.1.0\\jetbrains.annotations.2021.1.0.nupkg.sha512",

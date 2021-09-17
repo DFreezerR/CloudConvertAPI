@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertAPI", "ConvertAPI\ConvertAPI.csproj", "{9EDD0683-AD28-48FD-82FD-3B0625EFD97B}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30803.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudConvertApp", "ConvertAPI\CloudConvertApp.csproj", "{9EDD0683-AD28-48FD-82FD-3B0625EFD97B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +15,11 @@ Global
 		{9EDD0683-AD28-48FD-82FD-3B0625EFD97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EDD0683-AD28-48FD-82FD-3B0625EFD97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EDD0683-AD28-48FD-82FD-3B0625EFD97B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C6FD073-A2B8-49FB-A660-514F1AE6D263}
 	EndGlobalSection
 EndGlobal

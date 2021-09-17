@@ -2925,20 +2925,20 @@
   "packageFolders": {
     "C:\\Users\\HappyMan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HappyMan\\RiderProjects\\ConvertAPI\\ConvertAPI\\ConvertAPI.csproj",
-      "projectName": "ConvertAPI",
-      "projectPath": "C:\\Users\\HappyMan\\RiderProjects\\ConvertAPI\\ConvertAPI\\ConvertAPI.csproj",
+      "projectUniqueName": "C:\\Users\\HappyMan\\RiderProjects\\ConvertAPI\\ConvertAPI\\CloudConvertApp.csproj",
+      "projectName": "CloudConvertApp",
+      "projectPath": "C:\\Users\\HappyMan\\RiderProjects\\ConvertAPI\\ConvertAPI\\CloudConvertApp.csproj",
       "packagesPath": "C:\\Users\\HappyMan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HappyMan\\RiderProjects\\ConvertAPI\\ConvertAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Microsoft\\Xamarin\\NuGet"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\HappyMan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2947,7 +2947,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},

@@ -1,11 +1,11 @@
 using System;
 using System.Windows.Forms;
 
-namespace ConvertAPI
+namespace CloudConvertApp
 {
     static class Program
     {
-        public static Form1 formMain = new Form1();
+        public static FMain formMain = new FMain();
         [STAThread]
         static void Main()
         {

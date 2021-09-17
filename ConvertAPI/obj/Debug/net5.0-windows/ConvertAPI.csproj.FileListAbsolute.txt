@@ -18,5 +18,13 @@ C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\bin\Debug\net5.0-windows\C
 C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\bin\Debug\net5.0-windows\JetBrains.Annotations.dll
 C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
 C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\ConvertAPI.csproj.CopyComplete
-C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\ConvertAPI.Form1.resources
 C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\ConvertAPI.csproj.GenerateResource.cache
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\ConvertAPI.FMain.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\ConvertAPI.FSettings.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\ConvertAPI.Properties.Resources.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\CloudConvertAPI.FMain.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\CloudConvertAPI.FSettings.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\CloudConvertAPI.Properties.Resources.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\CloudConvertApp.FMain.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\CloudConvertApp.FSettings.resources
+C:\Users\HappyMan\RiderProjects\ConvertAPI\ConvertAPI\obj\Debug\net5.0-windows\CloudConvertApp.Properties.Resources.resources

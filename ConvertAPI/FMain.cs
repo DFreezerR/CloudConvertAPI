@@ -15,9 +15,9 @@ using CloudConvert.API.Models.JobModels;
 using CloudConvert.API.Models.TaskOperations;
 using Newtonsoft.Json.Linq;
 
-namespace ConvertAPI
+namespace CloudConvertApp
 {
-    public partial class Form1 : Form
+    public partial class FMain : Form
     {
         public Logger logger;
         public string filePath = String.Empty;
@@ -27,12 +27,11 @@ namespace ConvertAPI
         public bool isMultiFiles = false;
         public Point prevMousePos;
 
-        private string _apiKEY = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiM2U5MDk5MWQ3OGEyNjhiZGM5NWQzNjZmNTI3NTJlYjRhZTEzNGVlMGI2YWJlN2RhZmQ3ZDMzYTRkNTkyZDg5MjQyY2ZlNDI1M2RhYzVmN2UiLCJpYXQiOjE2MzE0NTQyMDYuNzM4MjE1LCJuYmYiOjE2MzE0NTQyMDYuNzM4MjE4LCJleHAiOjQ3ODcxMjc4MDYuNzA1ODQzLCJzdWIiOiI1MzM2ODA2OCIsInNjb3BlcyI6WyJ0YXNrLnJlYWQiLCJ0YXNrLndyaXRlIl19.UQLWtBbElpOT1VnoIdjvikXNRxyDtaIBaRcTJnZ2G-GPvUa2SR4W6b7Xztzb_V2zur2xk5QzKvFKNzYIj1etbLdQQijlqGigTsw0TAuU1-KyjAqlCB2pE-w0K3xPZHqpTv-FNvVzhmBu0mczeBNnLW0bEGsQ_6q5hBMwzC3Xh4WW5gTntS6p3IVAdv_3uIkRoLAaD9UIfn4-YajHfpg6PiTqceT1G4FSVZGEEjRI5UzbwiIiNNx5GN-Uu6lkIzftP6RAch9mzDta4lSoY1IX0AYo8_KCglfro3qbpCZhUnMHIDvHygv2seQlsE8KU9zeoYQxemr6ReHjjxFG-5E8rianBMz1cPmXMNGqDGtUN8yRsT_R3-d-yXMVytkM82-5wolrAKhPgyct2uzRfH5tZMvS7Bg_PMb65FaZV-RhWj2FvTUn4F52hFdpo2QR7Grk63bBtUD_pD8exKMBZhQc0iXlKA8fmtwz1S5mbuPuYIDQ6SYTbSOIYTiUo3Xc2iXs8h4vTZ6lvQDYHIifYI8FrthEa9F1HcPDWmH63Q_UzxpCJXmrRL8TTP_XnzPmv6KrQSKZltXG66Q4X5UYgsql3yS4mvCPEP8pCPs9TI13rUU_3MJVWlr6Wsw7hfWl6U6QFB-0ydunsfvWv54ZbJYbXZPaMUlN43QEXl6SLHYb8_8";
         public async void  CreateTask(string pathFrom, string pathTo, string extFrom, string extTo)
         {
             try
             {
-                var _cloudConvert = new CloudConvertAPI(_apiKEY, true);
+                var _cloudConvert = new CloudConvertAPI(Settings.APIKey, true);
 
                 //Create Tasks
                 
@@ -101,14 +100,19 @@ namespace ConvertAPI
                     Process.Start("explorer.exe", fileDownloadPath);
                 }
             }
+            catch (WebApiException)
+            {
+                MessageBox.Show("Error! Wrong API key! Please make sure you entered right API key!", "API key error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             catch (Exception e)
             {
-                MessageBox.Show("Error! " + e.Message);
+                MessageBox.Show("Error! " + e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        public Form1()
+        public FMain()
         {
             InitializeComponent();
+            this.Icon = Properties.Resources.ico;
             logger = new Logger(txtLogs);
             txtLogs.TextChanged += TxtLogsOnTextChanged;
             cmbFrom.DataSource = new List<string>();
@@ -217,6 +221,12 @@ namespace ConvertAPI
                 this.Location = newPos;
                 this.Update();
             }
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            this.Enabled = false;
+            new FSettings().ShowDialog(this);
         }
     }
 }
