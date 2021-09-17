@@ -1,6 +1,6 @@
 ﻿namespace ConvertAPI
 {
-    partial class Form1
+    partial class FMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -47,6 +47,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnSettings = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlHeader.SuspendLayout();
@@ -188,6 +189,7 @@
             // pnlHeader
             // 
             this.pnlHeader.BackColor = System.Drawing.Color.Coral;
+            this.pnlHeader.Controls.Add(this.btnSettings);
             this.pnlHeader.Controls.Add(this.btnHide);
             this.pnlHeader.Controls.Add(this.btnExit);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
@@ -278,6 +280,21 @@
             this.panel5.Size = new System.Drawing.Size(431, 73);
             this.panel5.TabIndex = 11;
             // 
+            // btnSettings
+            // 
+            this.btnSettings.BackColor = System.Drawing.Color.Bisque;
+            this.btnSettings.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btnSettings.FlatAppearance.BorderSize = 0;
+            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSettings.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
+            this.btnSettings.Location = new System.Drawing.Point(704, 0);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(32, 36);
+            this.btnSettings.TabIndex = 2;
+            this.btnSettings.Text = "O";
+            this.btnSettings.UseVisualStyleBackColor = false;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -289,7 +306,7 @@
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "FMain";
             this.Text = "ConvertAPI";
             this.groupBox1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -300,6 +317,8 @@
             this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Button btnSettings;
 
         private System.Windows.Forms.Button btnHide;
 
